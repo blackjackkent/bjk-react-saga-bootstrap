@@ -1,0 +1,24 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+
+# testing
+.eslintcache
+coverage
+api/db.json
+
+# production
+build
+
+# misc
+.DS_Store
+Thumbs.db
+.env
+.idea
+npm-debug.log
+compilation-stats.json
+.vscode/*
+*.bak
+*.orig
+config/config.e2e.json

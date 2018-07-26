@@ -1,0 +1,16 @@
+{
+	"rootDir": "../../",
+	"preset": "jest-puppeteer",
+	"testMatch": [
+		"<rootDir>/e2e/**/*.js?(x)"
+	],
+	"testPathIgnorePatterns": [
+		"/node_modules/",
+		"/src/",
+		"/e2e/pages/"
+	],
+	"coveragePathIgnorePatterns": [
+		"/node_modules/",
+		"/src/"
+	]
+}
